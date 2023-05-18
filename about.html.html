@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolodbolod Seventh-Day Adventist Church Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="sda-logo.png">
+   
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="sda-logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <p class="myicon" onclick="hideMenu()"><b>x</b></p>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <p class="myiconm" onclick="showMenu()">MENU</p>
+        </nav>
+    <h1>About Us</h1>
+    </div>
+    </section>
+
+<!-- About Us Content -->
+    <section class="about-us">
+        <div class="row"> 
+        <div class="about-col">
+            <h1>The People </h1>
+            <p> Seventh-Day Adventists believe all people are created equal in the eyes of God 
+                and that we were created equal in God's Image. Because of This, it is vitally 
+                important help people understand the Bible to find healinf, hope and freedom 
+                in Jesus. Only through personal relationships with Jesus can each 
+                of us grow into our full potential as human beings whether we are children,
+                women or men.
+                <br>Our church is not about having four walls and a pulpit. it is about living in
+                harnony as the body of Christ. This means each church member loves, 
+                respect and values the other members, realizing that just as different organs 
+                make up the body, so different, so different members are needed to form the Church.
+                Sure, we'll disagree sometimes, adn from time to time, even the closest family have some friction. 
+                That's when Christian love and patience comes in. As Christians we have the privilege to model for the world
+                how God calls us to live in a caring, compassionate community. Here's to a
+                happy family with Jesus at the center! 
+
+            </p>
+            <a href="blog.html.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="members.jpg">
+        </div>
+    </div>
+    </section>
+
+
+<!-- java Script for menu -->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+
+</body>
+</html>
